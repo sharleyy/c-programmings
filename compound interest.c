@@ -15,6 +15,6 @@ int main()
 
   interest=p * pow((1+r),t);
   //pow(2,8)
-  printf("interest=%7.2f",interest);
+  printf("interest=%.2f",interest);
   return 0;
 }
