@@ -4,13 +4,13 @@
 int main()
 {
   float t,n,r,p,interest;
-  printf("\nEnter the principal_amount:");
+  printf("\nEnter the principal_amount: ");
   scanf("%f",&p);
 
-  printf("\nEnter time_value:");
+  printf("\nEnter time_value: ");
   scanf("%f",&t);
 
-  printf("\nEnter the rate_value:");
+  printf("\nEnter the rate_value: ");
   scanf("%f",&r);
 
   interest=p * pow((1+r),t);
