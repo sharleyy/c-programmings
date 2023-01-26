@@ -3,13 +3,13 @@
 int main()
 {
   float t,r,p,interest;
-  printf("\nEnter the principal amount:");
+  printf("\nEnter the principal amount: ");
 scanf("%f",&p);
 
-  printf("\nEnter time:");
+  printf("\nEnter time: ");
   scanf("%f",&t);
 
-  printf("\nEnter rate:");
+  printf("\nEnter rate: ");
   scanf("%f",&r);
 
  interest=p*t*r/100;
